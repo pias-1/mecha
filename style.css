@@ -1,0 +1,115 @@
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    height: 180px;
+    
+}
+    
+#header{
+    float: left;
+    background: linear-gradient(yellow,red);
+   
+}
+
+    #pic{
+        background-size: auto;
+        border: 2px solid;
+        width: 160px;
+        height: 176px;
+        margin-left: 83.7%;
+    }
+    #pic img{
+        width: 160px;
+        height: 176px;
+
+  }  
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgba(red, green, blue, alpha);
+    text-decoration: none;
+   margin-bottom: 100%;
+    
+}
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(#87CEEB,hsl(266, 95%, 47%));
+
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 60px;
+    height: 30px;
+    border-right: 2px solid thick blue ;
+   
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    line-height: 50px;
+    -webit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+#introduction{
+    background: linear-gradient(#3385ff,#33ccff);
+    padding: 30px;
+    margin: 16px 0;
+}
+#introduction h1{
+    color:#4B0082;
+}
+#introduction h2{
+    color:#191970 ;
+}
+#introduction p{
+    font-size: 20px;
+    color:#FFFFF0;
+    text-align: justify;
+}
+#introduction h3{
+    font-size: 22px;
+    color:#4B0082;
+}
+#introduction p{
+     font-size: 20px;
+     font-weight: lighter;
+     color:#FFFFF0;
+     text-align: justify;
+}
+#introduction h4{
+    font-size: 22px;
+    color:#4B0082;
+}
+#introduction p2{
+    font-size: 20px;
+    color:#FFFFF0;
+}
+.footer{
+    height: 80px;
+    background: linear-gradient(#ffd480, #53ff1a);
+}
+.footer h6{
+    font-size: 20px;
+    color: #000d1a;
+}
